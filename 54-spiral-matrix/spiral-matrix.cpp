@@ -7,6 +7,7 @@ public:
         
         
         vector<int> ans;
+        vector<int> num;
         int row = matrix.size();
         int col = matrix[0].size();
         
