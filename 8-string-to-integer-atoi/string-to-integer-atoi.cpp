@@ -3,7 +3,6 @@ public:
     int myAtoi(string s) {
         long long result = 0;
         bool sign = false;
-        vector<int> ans;
         int i = 0;
         while(i < s.size() && s[i] == ' ')
         {
