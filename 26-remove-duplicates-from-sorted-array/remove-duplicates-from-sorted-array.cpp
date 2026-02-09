@@ -4,6 +4,7 @@ public:
         if(nums.empty())
             return 0;
         int j=0;
+        vector<int> ans;
         for(int i=1;i<nums.size();i++)
         {
             if(nums[j]!=nums[i])
