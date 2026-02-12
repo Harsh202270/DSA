@@ -11,6 +11,7 @@
  */
 class Solution {
     TreeNode* ArrayToBST(vector<int>& nums, int start, int end) {
+        int ans;
         if (start > end) {
             return NULL;
         }
