@@ -10,7 +10,6 @@ public:
                 k++;
             else if(a==32 && (64<b && b<123))
                 k=0;
-
         }
         return k;
     }
