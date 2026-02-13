@@ -4,7 +4,6 @@ public:
         if(num==0)
             return 0;
         int count;
-        int ans;
         while(num>=10)
         {
             count = 0;
