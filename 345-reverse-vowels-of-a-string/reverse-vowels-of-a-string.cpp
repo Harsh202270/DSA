@@ -6,7 +6,6 @@ public:
     }
     string reverseVowels(string s) {
         int l = 0 ;
-        int ans;
         int r = s.length()-1;
         while(l<r)
         {
