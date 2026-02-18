@@ -16,7 +16,6 @@ public:
                 ans.push_back(nums1[i]);
                 i++;
                 j++;
-                continue;
             }
             else if(nums1[i]<nums2[j])
                 i++;
