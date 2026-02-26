@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool isUgly(int n) {
-        vector<int> ans;
         if(n<=0)
             return false;
         while(n!=1)
