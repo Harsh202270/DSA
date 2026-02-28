@@ -17,6 +17,26 @@ I started uploading solutions recently and am currently focusing on strengthenin
 - ✅ Arrays  
 - ✅ Strings  
 - ✅ Unordered Map (Hashing)
+- ✅ Linked List  
+
+---
+
+## 🔗 Linked List
+- A linear data structure where elements are connected using pointers
+- Each node contains:
+  - Data
+  - Pointer to next node
+- Common operations:
+  - Reversal
+  - Finding middle node
+  - Removing Nth node from end
+- Common problems:
+  - LeetCode 206 – Reverse Linked List  
+  - LeetCode 141 – Linked List Cycle  
+  - LeetCode 19 – Remove Nth Node From End of List  
+- Time Complexity:
+  - Traversal: **O(n)**
+  - Insertion/Deletion (at head): **O(1)**
 
 ---
 
