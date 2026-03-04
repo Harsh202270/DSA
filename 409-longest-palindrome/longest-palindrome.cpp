@@ -20,7 +20,6 @@ public:
                 pos = pos + 1;
                 valid = false;
             }
-            cout<<ans[i];
         }
         return pos;
     }
