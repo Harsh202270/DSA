@@ -13,7 +13,6 @@ public:
         }
     }
     int romanToInt(string s) {
-        int a;
         int result = 0;
         for (int i=0 ; i<s.size();i++)
         {
