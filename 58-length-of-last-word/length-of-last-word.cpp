@@ -3,7 +3,6 @@ public:
     int lengthOfLastWord(string s) {
         if(s.empty())   
             return 0;
-        int ans;
         int k=0;
         for(int i=0;i<s.length();i++){
             int a = s[i];
