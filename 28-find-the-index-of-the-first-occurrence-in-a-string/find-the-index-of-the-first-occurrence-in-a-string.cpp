@@ -4,7 +4,8 @@ public:
         if (needle.empty()) return 0;
         if (needle.size() > haystack.size()) return -1;
 
-        for(int i = 0; i <= haystack.length() - needle.length(); i++) {
+        for(int i = 0; i <= haystack.length() - needle.length(); i++) 
+        {
             int j;
             for(j = 0; j < needle.length(); j++)
             {
