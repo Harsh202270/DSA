@@ -4,7 +4,7 @@ public:
         if(num1 == "0" || num2 == "0") return "0";
         reverse(num1.begin(),num1.end());
         reverse(num2.begin(),num2.end());
-        
+        int ans1;
         int n = num1.size() + num2.size();
         vector<int> arr(n, 0);
         for(int j=0;j<num2.length();j++)
