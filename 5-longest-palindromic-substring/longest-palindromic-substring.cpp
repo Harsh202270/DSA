@@ -4,7 +4,6 @@ public:
         if (s.empty()) {
             return "";
         }
-        int ans;
         int start = 0;
         int end = 0;
 
