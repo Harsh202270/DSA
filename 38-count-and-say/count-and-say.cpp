@@ -8,6 +8,7 @@ public:
         }
         for(int i=2;i<=n;i++)
         {
+            int ans;
             string temp = curr;
             curr="";
             int j=1;
