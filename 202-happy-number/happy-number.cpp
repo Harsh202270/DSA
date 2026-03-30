@@ -2,7 +2,6 @@ class Solution {
 public:
     bool isHappy(int n) {
         int temp=n;
-        int ans;
         unordered_map<int,int> um;
         while(um.find(temp)==um.end())
         {
