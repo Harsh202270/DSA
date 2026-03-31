@@ -2,6 +2,7 @@ class Solution {
 public:
     int firstUniqChar(string s) {
         unordered_map<char,int> count;
+        int ans;
         for(char c : s) {
             count[c]++;
         }
