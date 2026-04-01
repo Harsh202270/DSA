@@ -3,7 +3,6 @@ public:
     bool canConstruct(string ransomNote, string magazine) {
         sort(ransomNote.begin(),ransomNote.end());
         sort(magazine.begin(),magazine.end());
-        int k=0;
         int i =0,j=0;
         int n=ransomNote.size();
         int m = magazine.size();
