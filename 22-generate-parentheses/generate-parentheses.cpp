@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<string> ans;
     int ans1;
+    int an;
     void dfs(string curr , int open ,int close ,int n )
     {
         if(open==n && close == n)
