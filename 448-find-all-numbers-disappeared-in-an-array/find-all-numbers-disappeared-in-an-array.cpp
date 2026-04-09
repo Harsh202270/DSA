@@ -15,11 +15,7 @@ public:
             if(i<n-2 && nums[i]==nums[i+1])
                 continue;
             if(temp == nums[i])
-            {
                 temp++;
-                continue;
-            }
-            
         }
         while(temp<=n)
         {
