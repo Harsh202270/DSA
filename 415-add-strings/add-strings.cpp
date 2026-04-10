@@ -5,7 +5,6 @@ public:
         int j = num2.size()-1;
         int carry = 0;
         string ans = "";
-        int a;
         while(i>=0 || j>=0 || carry)
         {
             int sum = carry;
