@@ -7,7 +7,7 @@ public:
                 nums[i] = n + 1;
             }
         }
-        int a;
+        
         for (int i = 0; i < n; ++i) {
             int val = abs(nums[i]);
             if (val >= 1 && val <= n) {
