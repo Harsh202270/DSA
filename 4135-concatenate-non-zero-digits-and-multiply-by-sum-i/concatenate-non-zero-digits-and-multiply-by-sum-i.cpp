@@ -3,7 +3,6 @@ public:
     long long sumAndMultiply(int n) {
         long long ans=0;
         int i=0;
-        int a;
         int count = 0 ;
         while(n>0)
         {
