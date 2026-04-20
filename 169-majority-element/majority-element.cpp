@@ -2,7 +2,6 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         unordered_map<int,int> um;
-        int ans;
         int max = 0;
         int mazority;
         for(int i:nums){
