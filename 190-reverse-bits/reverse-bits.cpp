@@ -2,6 +2,7 @@ class Solution {
     public:
         int reverseBits(int n) {
             string binary = "";
+            int ans;
             int count = 32;
                 while(n>0)
                 {
@@ -15,9 +16,7 @@ class Solution {
                 }
                 
                 for(int i=binary.length();i<32;i++)
-                {
                     binary = binary + "0";
-                }
                 long long total=0;
                 long long digit=1;
                 for(int i=31;i>=0;i--)
