@@ -17,7 +17,7 @@ private:
     }
 }
     bool checkPalindrome(string a) {
-    int s = 0;
+    int s = 0,num=0;
     int e = a.length()-1;
 
     while(s<=e) {
