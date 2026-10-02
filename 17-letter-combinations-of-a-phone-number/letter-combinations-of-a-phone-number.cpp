@@ -8,6 +8,7 @@ private:
         }
         int num = digits[index]-'0';
         string value = arr[num];
+        
         for(int i=0;i<value.length();i++)
         {
             temp.push_back(value[i]);
@@ -18,6 +19,7 @@ private:
 public:
     vector<string> letterCombinations(string digits) {
         vector<string> ans;
+        int a;
         if(digits.length()==0)
             return ans;
         string temp="";
