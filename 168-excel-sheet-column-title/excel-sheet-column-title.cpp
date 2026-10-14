@@ -2,6 +2,7 @@ class Solution {
 public:
     string convertToTitle(int columnNumber) {
         string result = "";
+        int num;
         do
         {
             columnNumber--;
