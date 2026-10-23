@@ -3,6 +3,7 @@ public:
     int majorityElement(vector<int>& nums) {
         unordered_map<int,int> um;
         int max = 0;
+        int m;
         int mazority;
         for(int i:nums){
             um[i]++;
